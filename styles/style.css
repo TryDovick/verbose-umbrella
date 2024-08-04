@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    max-width: 1024px;
+    min-width: 1024px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.inside-container{
+    margin-top: 100px;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inside-container-answer{
+    display: grid;
+    place-items: center;
+}
+
+#savinImg{
+    display: none;
+    margin-top: 10px;
+}
